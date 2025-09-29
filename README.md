@@ -12,7 +12,7 @@ pip install python-dotenv
 pip install tk
 ```
 
-## How to Use?
+## How to Use? (Windows)
 
 1. **Clone the Repository**
 2. **Write a .bat file to run it on startup**:
