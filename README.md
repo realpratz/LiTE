@@ -15,7 +15,7 @@ pip install tk
 ## How to Use? (Windows)
 
 1. **Clone the Repository**
-2. **Create a `.env` file in the same directory as the `.py` file**:
+2. **Create a `.env` file in the same directory as the `LiTE.py` file**:
 ```
 id=f2025XXXX
 password=Bits$XXXXX
