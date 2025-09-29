@@ -25,7 +25,7 @@ on_start=1
 ```
 3. **Write a .bat file to run it on startup**:
 ```
-python "<directory of LiTE.py>"
+python "<path of LiTE.py>"
 ```
 Save it in- ```C:\Users\<user>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup```
 
