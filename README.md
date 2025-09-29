@@ -23,7 +23,7 @@ timeout=10
 save_xml=1
 on_start=1
 ```
-4. **Write a .bat file to run it on startup**:
+3. **Write a .bat file to run it on startup**:
 ```
 python "<directory of LiTE.py>"
 ```
