@@ -19,13 +19,7 @@ pip install tk
 ```
 python "<directory of LiTE.py>"
 ```
-Save it in- C:\Users\<user>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+Save it in- ```C:\Users\<user>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup```
 
 Now everytime on startup, the script will read the `.env` file preferences set by you automatically log you into LAN
-- **Packaging Issues**: Ensure the `--add-data` option is correctly specified when running `pyinstaller`.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ---
