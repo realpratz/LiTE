@@ -15,7 +15,15 @@ pip install tk
 ## How to Use? (Windows)
 
 1. **Clone the Repository**
-2. **Write a .bat file to run it on startup**:
+2. **Create a `.env` file in the same directory as the `.py` file**:
+```
+id=f2025XXXX
+password=Bits$XXXXX
+timeout=10
+save_xml=1
+on_start=1
+```
+4. **Write a .bat file to run it on startup**:
 ```
 python "<directory of LiTE.py>"
 ```
