@@ -17,7 +17,7 @@ pip install tk
 1. **Clone the Repository**
 2. **Write a .bat file to run it on startup**:
 ```
-python "<directory of LiTE.py"
+python "<directory of LiTE.py>"
 ```
 Save it in- C:\Users\<user>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 
