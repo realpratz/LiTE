@@ -1,6 +1,6 @@
 # LiTE
 
-Automating LAN related utilities one step at a time
+Automating LAN related utilities one step at a time. (**It's still WIP, it's not just for LAN autologin**)
 
 ## Requirements
 
