@@ -5,13 +5,7 @@ Automating LAN related utilities one step at a time
 ## Requirements
 
 - **Python**: Ensure Python is installed on your system.
-- **Libraries**: Install python packages that might not be installed bydefault:
-```
-pip install requests
-pip install python-dotenv
-pip install tk
-```
-
+- **Libraries**: Install python packages that might not be installed bydefault (install requirements.txt)
 ## How to Use? (Windows)
 
 1. **Clone the Repository**
