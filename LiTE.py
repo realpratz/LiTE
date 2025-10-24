@@ -138,7 +138,7 @@ if not on_start:
     root.title(f"LiTE- LAN integration & Tracking Easer v{version}")
     
     if sys.platform.startswith("win"):
-        scale = 1.0
+        root.geometry("500x400")
     else:
         root.geometry("700x600")
     root.resizable(False, False)
@@ -204,4 +204,5 @@ if not on_start:
 if on_start:
     login(username, password, timeout=10)
 else:
+
     root.mainloop()
