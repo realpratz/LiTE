@@ -8,12 +8,13 @@ import requests
 import os
 import tkinter as tk
 from dotenv import load_dotenv
+import sys
 import xml.etree.ElementTree as ET
 import requests
 
 # ---------- Load ENV File ----------
 load_dotenv()
-version = "0.2"
+version = "0.3"
 
 username = os.getenv("id")
 password = os.getenv("password")
@@ -135,7 +136,11 @@ def pressSave():
 if not on_start:
     root = tk.Tk()
     root.title(f"LiTE- LAN integration & Tracking Easer v{version}")
-    root.geometry("500x400")
+    
+    if sys.platform.startswith("win"):
+        scale = 1.0
+    else:
+        root.geometry("700x600")
     root.resizable(False, False)
 
     cred_frame = tk.Frame(root)
